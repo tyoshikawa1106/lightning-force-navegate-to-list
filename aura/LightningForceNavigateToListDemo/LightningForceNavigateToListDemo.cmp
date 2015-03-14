@@ -1,0 +1,7 @@
+<aura:component controller="NavigateToListDemoController" implements="force:appHostable">
+    <div id="aura-page">
+        <div class="container">
+            <ui:button label="Go To Account ListViews" press="{!c.gotoListViews}" />
+        </div>
+    </div>
+</aura:component>
